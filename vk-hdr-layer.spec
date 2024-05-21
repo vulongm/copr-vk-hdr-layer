@@ -4,7 +4,7 @@
 %global git_date 20240309
 
 Name:           vk-hdr-layer
-Version:        0^%{git_date}git%{shortcommit}
+Version:        0^%{git_date}.git%{shortcommit}
 Release:        %autorelease
 Summary:        Vulkan layer utilizing a small color management / HDR protocol for experimentation
 License:        MIT
