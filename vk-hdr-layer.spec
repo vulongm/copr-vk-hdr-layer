@@ -1,11 +1,13 @@
 %global debug_package %{nil}
-%global commit f5f13b7ae44135a4d79a60bd4cd4efe7e1534ba6
+%global commit e47dc6da924cd361b0082f5c27fe5e923377bb54
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global git_date 20240309
+%global git_date 20240427
+%global tag 1
+%global ver_count 1
 
 Name:           vk-hdr-layer
-Version:        0^%{git_date}.git%{shortcommit}
-Release:        %autorelease
+Version:        %{tag}
+Release:        %{ver_count}.%{git_date}git%{shortcommit}
 Summary:        Vulkan layer utilizing a small color management / HDR protocol for experimentation
 License:        MIT
 URL:            https://github.com/Zamundaaa/VK_hdr_layer
