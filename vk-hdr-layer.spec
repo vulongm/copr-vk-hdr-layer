@@ -7,7 +7,7 @@
 
 Name:           vk-hdr-layer
 Version:        %{tag}
-Release:        %{ver_count}.%{git_date}git%{shortcommit}%{?dist}
+Release:        %{git_date}.%{ver_count}.%{shortcommit}%{?dist}
 Summary:        Vulkan layer utilizing a small color management / HDR protocol for experimentation
 License:        MIT
 URL:            https://github.com/Zamundaaa/VK_hdr_layer
