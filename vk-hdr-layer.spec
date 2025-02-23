@@ -1,7 +1,7 @@
 %global debug_package %{nil}
-%global commit 1534ef826bfecf525a6c3154f2e3b52d640a79cf
+%global commit 1f13469feb0704bcf56b64fd6ec3793e5087d895
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global git_date 20241227
+%global git_date 20250213
 %global tag 1
 %global ver_count 1
 
