@@ -2,7 +2,7 @@ name: Update vk-hdr-layer
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */4 * * *"
 jobs:
   update:
     runs-on: ubuntu-latest
