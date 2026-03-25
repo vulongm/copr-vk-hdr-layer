@@ -1,9 +1,9 @@
 %global debug_package %{nil}
-%global commit 303e0c69e1d33acd95158d92b1fc652fb5b85399
+%global commit 57b26b8927b133566be13a7702f74a62109bad15
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global git_date 20250731
+%global git_date 20260325
 %global tag 1
-%global ver_count 3
+%global ver_count 1
 
 Name:           vk-hdr-layer
 Version:        %{tag}
